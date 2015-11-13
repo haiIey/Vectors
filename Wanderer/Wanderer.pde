@@ -4,6 +4,7 @@ float diam;
 
 PVector loc;
 PVector vel;
+PVector acc;
 
 void setup() {
   //set size of canvas
