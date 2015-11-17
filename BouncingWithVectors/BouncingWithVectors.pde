@@ -1,7 +1,6 @@
 //declare variables
 float x, y, velX, velY, diam;
 
-pvector loc;
 
 void setup() {
   //set size of canvas
@@ -12,7 +11,10 @@ void setup() {
   y = height/2;
   diam = 80;
   
-  vel = new pvector (-5, 5)(-5, 5);
+  PVector loc;
+  PVector vel;
+  
+new PVector(-5, 5);
 }
 
 void draw() {
